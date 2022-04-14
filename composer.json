@@ -24,14 +24,6 @@
     "issues": "https://github.com/wemersonjanuario/wkhtmltopdf-windows/issues?state=open"
   },
   "minimum-stability": "stable",
-  "bin": [
-    "bin/x32/wkhtmltoimage.exe",
-    "bin/x32/wkhtmltopdf.exe",
-    "bin/x32/wkhtmltox.dll",
-    "bin/x64/wkhtmltoimage.exe",
-    "bin/x64/wkhtmltopdf.exe",
-    "bin/x64/wkhtmltox.dll",
-  ],
   "require": {
   },
   "suggest": {

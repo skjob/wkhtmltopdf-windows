@@ -19,7 +19,7 @@ Non Framework [github.com/wemersonjanuario/pdf](https://github.com/wemersonjanua
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.2.3'.
+To install the latest version, use '0.12.2.6'.
 
 In case this package does _not_ work on your system, try installing the matching system packages from here: [http://wkhtmltopdf.org/downloads.html](http://wkhtmltopdf.org/downloads.html).
 
@@ -29,13 +29,12 @@ This package can be found on [Packagist](http://packagist.org) and installed wit
 
 Require the package for Windows with:
 
-    php composer.phar require wemersonjanuario/wkhtmltopdf-windows "0.12.2.3"
-
+    composer require skjob/wkhtmltopdf-windows "0.12.2.6"
 
 The binaries will then be located at:
 
-    vendor/wemersonjanuario/wkhtmltopdf-windows/bin/wkhtmltopdf-windows
+    vendor/skjob/wkhtmltopdf-windows/bin/x32/wkhtmltoimage.exe
+    vendor/skjob/wkhtmltopdf-windows/bin/x32/wkhtmltopdf.exe
 
-Also a symlink will be created in your configured bin/ folder, for example:
-
-    vendor/bin/32bit/wkhtmltopdf.exe.bat and vendor/bin/64bit/wkhtmltopdf.exe.bat
+    vendor/skjob/wkhtmltopdf-windows/bin/x64/wkhtmltoimage.exe
+    vendor/skjob/wkhtmltopdf-windows/bin/x64/wkhtmltopdf.exe
